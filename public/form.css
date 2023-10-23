@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(minimarket.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    font-family: 'Trebuchet MS';
+    background-color: #B3A492;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.header .title {
+    font-size: 30px;
+}
+.header .title a{
+    color: #fff;
+    text-decoration: none;
+}
+.header .title a:hover{
+    background-color: #DADDB1;
+    border-radius: 5px;
+}
+.header .logo img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+
+.sidebar {
+    font-family: 'Trebuchet MS';
+    font-size: 24px;
+    background-color: #BFB29E;
+    color: #fff;
+    width: 20%;
+    float: left;
+    padding: 20px;
+}
+
+.sidebar .navbar {
+    list-style: none;
+}
+
+.sidebar .menu {
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: #fff;
+    display: block;
+}
+
+.sidebar .menu:hover {
+    background-color: #DADDB1;
+    border-radius: 5px;
+}
+
+.konten {
+    width: 75%;
+    margin: 20px;
+    background-color: #F9F3CC;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background: #B5CB99;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button[type="submit"]:hover {
+    background: #445D48;
+}
+
+.body {
+    flex-grow: 1;
+    display: flex;
+}
+
+.footer {
+    margin-top: auto;
+    background-color: #D6C7AE;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+@media (max-width: 768px) {
+    .sidebar {
+        width: 100%;
+    }
+}
