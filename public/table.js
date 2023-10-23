@@ -8,7 +8,7 @@ async function fetchProducts() {
 
         data = JSON.parse(storedProducts);
     } else {
-        const productData = [
+        data = [
             {
                 id: "17201",
                 nama: "Indomie Goreng",
