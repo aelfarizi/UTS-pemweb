@@ -8,27 +8,27 @@ async function fetchProducts() {
 
         data = JSON.parse(storedProducts);
     } else {
-        data = [
+        const productData = [
             {
                 id: "17201",
                 nama: "Indomie Goreng",
-                kategori: Makanan,
+                kategori: "Makanan",
                 satuan: "pcs",
-                stok: 24,
-                beli: 2750,
-                jual: 3000,
-                diskon: 0,
+                stok: "24",
+                beli: "2750",
+                jual: "3000",
+                diskon: "0",
                 supplier: "Superindo",
             },
             {
                 id: "17202",
                 nama: "Indomie Rebus Kari Ayam",
-                kategori: Makanan,
+                kategori: "Makanan",
                 satuan: "pcs",
-                stok: 24,
-                beli: 2750,
-                jual: 3000,
-                diskon: 0,
+                stok: "48",
+                beli: "2750",
+                jual: "3000",
+                diskon: "0",
                 supplier: "Superindo",
             }
         ];
